@@ -62,9 +62,10 @@ function App() {
 
   return (
     <Container>
-      <Title>Cake Key-Value Store</Title>
+      <Title>Whispering Cake🍰</Title>
       <Description>
-        A simple interface to interact with your key-value database. Enter a key to retrieve its value, or provide both key and value to create or update an entry.
+        A simple cache to 🍰.
+        Enter a key to retrieve its value, or provide both key and value to create or update an entry.
       </Description>
       <InputArea>
         <TextArea
@@ -78,7 +79,7 @@ function App() {
           onChange={(e) => setValue(e.target.value)}
         />
       </InputArea>
-      <Button onClick={handleSubmit}>Go!</Button>
+      <Button onClick={handleSubmit}>🍰!</Button>
       {message && <Message>{message}</Message>}
     </Container>
   );
