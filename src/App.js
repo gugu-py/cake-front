@@ -16,7 +16,7 @@ function App() {
   const [value, setValue] = useState('');
   const [message, setMessage] = useState('');
 
-  const baseURL = 'https://cake-backend-100913224573.asia-east2.run.app/'; // Replace with your API URL
+  const baseURL = 'https://cake-back.cs-csc.com/'; // Replace with your API URL
 
   const handleSubmit = async () => {
     setMessage('');
