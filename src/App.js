@@ -17,7 +17,7 @@ function App() {
   const [message, setMessage] = useState('');
 
   const baseURL = 'https://cake-back.cs-csc.online/'; // Replace with your API URL
-
+  const a=1;
   const handleSubmit = async () => {
     setMessage('');
     if (key && !value) {
